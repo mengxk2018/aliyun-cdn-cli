@@ -1,15 +1,15 @@
 {
   "name": "aliyun-cdn-cli",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "aliyun cdn cli for refresh and push in shell",
-  "main": "./dist/index.js",
+  "main": "./src/index.ts",
   "bin": {
-    "aliyun-cdn-cli": "./dist/run.js"
+    "aliyun-cdn-cli": "./bin/run.js"
   },
   "scripts": {
     "build": "tsc",
-    "help": "node ./dist/run.js -h",
-    "start": "node ./dist/run.js"
+    "help": "node ./bin/run.js -h",
+    "start": "node ./bin/run.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,10 @@
   },
   "keywords": [
     "aliyun",
-    "cdn"
+    "aliyun-cdn",
+    "ali-cdn",
+    "cdn",
+    "cdn-cli"
   ],
   "author": "Mejor",
   "license": "MIT",
@@ -28,8 +31,6 @@
   },
   "devDependencies": {
     "@types/minimist": "^1.2.1",
-    "chai": "^4.3.0",
-    "mocha": "^8.2.1",
     "typescript": "^4.1.4"
   }
 }

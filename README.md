@@ -8,9 +8,6 @@ npm install -g aliyun-cdn-cli
 ```
 ```
   Usage: aliyun-cdn-cli [options]
-
-  Options:
-
     -i, --AccessKeyId <value>             阿里云凭证
     -k, --AccessKeySecret <value>         阿里云密钥
     -c, --config<value>                   自定义配置文件，默认读取./aliyun.config.json
@@ -18,6 +15,7 @@ npm install -g aliyun-cdn-cli
     -o, --refreshType <Directory/File>    刷新类型：[Directory=目录(默认),File=文件][可选]
     -t, --taskType <refresh/push>         任务类型:[refresh=刷新(默认),push=预热]
     -h, --help                            查看帮助
+    -v, --version                         查看版本
 ```
 ## [刷新缓存](https://help.aliyun.com/document_detail/91164.html) 被刷新的文件缓存将立即失效，新的请求将回源获取最新的文件，支持URL批量刷新。
 ```
