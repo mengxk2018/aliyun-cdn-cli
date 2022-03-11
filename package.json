@@ -1,5 +1,5 @@
 {
-  "name": "aliyun-cdn-cli",
+  "name": "@mengxk2008/aliyun-cdn-cli",
   "version": "1.0.8",
   "description": "aliyun cdn cli for refresh and push in shell",
   "main": "./src/index.ts",
